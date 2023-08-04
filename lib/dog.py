@@ -4,4 +4,8 @@ class Dog:
     def __init__(self, name, breed = "Mutt"):
         self.name = name
         self.breed = breed
-    pass
+    
+
+class Person:
+    def __init__(self, name):
+        self.name = name
